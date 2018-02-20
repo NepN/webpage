@@ -9,7 +9,7 @@
   <body>
   
     <?php
-      $fp = fopen("content.txt","r";
+      $fp = fopen("content.txt","r");
       if ($fi = file("datei.txt"))
         foreach($fi as $ftemp => $row) echo "Zeile $ftemp: $row<br>";
       else echo "Datei nicht gefunden";
