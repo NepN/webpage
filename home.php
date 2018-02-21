@@ -7,6 +7,7 @@
   </head>
   
   <body>
+  Hi
     <?php
       $read = file('content.txt');
       foreach ($read as $line) {
