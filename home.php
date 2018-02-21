@@ -7,7 +7,13 @@
   </head>
   
   <body>
-  
+    <?php
+      $read = file('content.txt','r');
+      foreach ($read as $line) {
+        echo $line;
+      }
+    ?>
+  /*
     <?php
       $fp = fopen("content.txt","r");
       if ( $fi = file("datei.txt") )
@@ -20,7 +26,7 @@
         echo "Datei nicht gefunden";
       }
     ?>
-  
+  */
   </body>
 
 </html>
