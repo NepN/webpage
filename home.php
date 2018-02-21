@@ -8,7 +8,7 @@
   
   <body>
     <?php
-      $read = file('content.txt','r');
+      $read = file('content.txt');
       foreach ($read as $line) {
         echo $line;
       }
